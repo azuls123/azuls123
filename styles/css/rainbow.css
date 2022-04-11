@@ -1,0 +1,120 @@
+.rainbow-bg{
+    animation: rainbow-bg 22.5s linear;
+    animation-iteration-count: infinite;
+}
+
+.rainbow{
+    animation: rainbow 22.5s linear;
+    animation-iteration-count: infinite;
+}
+.rainbow-neon {
+    animation: rainbow-neon 12.5s linear;
+    animation-iteration-count: infinite;
+
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+}
+
+@keyframes rainbow-bg{
+    100%,0%{ background-color: #ff0000; }
+    8%{ background-color: #ff7f00; }
+    16%{ background-color: #ffff00; }
+    25%{ background-color: #7fff00; }
+    33%{ background-color: #00ff00; }
+    41%{ background-color: #00ff7f; }
+    50%{ background-color: #00ffff; }
+    58%{ background-color: #007fff; }
+    66%{ background-color: #0000ff; }
+    75%{ background-color: #7f00ff; }
+    83%{ background-color: #ff00ff; }
+    91%{ background-color: #ff007f; }
+}
+@keyframes rainbow-border{
+    100%,0%{ background-color: #ff0000; }
+    8%{ background-color: #ff7f00; }
+    16%{ background-color: #ffff00; }
+    25%{ background-color: #7fff00; }
+    33%{ background-color: #00ff00; }
+    41%{ background-color: #00ff7f; }
+    50%{ background-color: #00ffff; }
+    58%{ background-color: #007fff; }
+    66%{ background-color: #0000ff; }
+    75%{ background-color: #7f00ff; }
+    83%{ background-color: #ff00ff; }
+    91%{ background-color: #ff007f; }
+}
+
+@keyframes rainbow-neon{
+    100%,0%{ color: #fff1f1; 
+        text-shadow: -1px 1px 0 #ff0000, 1px 1px 0 #ff0000,1px -1px 0 #ff0000,-1px -1px 0 #ff0000, 0 0 10px #ff0000, 0 0 30px #ff0000, 0 0 50px #ff0000;}
+    8%{ color: #fff6ee; 
+        text-shadow: -1px 1px 0 #bc5e00, 1px 1px 0 #bc5e00,1px -1px 0 #bc5e00,-1px -1px 0 #bc5e00, 0 0 10px #bc5e00, 0 0 30px #bc5e00, 0 0 50px #bc5e00;}
+    16%{ color: #ffffee; 
+        text-shadow: -1px 1px 0 #868600, 1px 1px 0 #868600,1px -1px 0 #868600,-1px -1px 0 #868600, 0 0 10px #868600, 0 0 30px #868600, 0 0 50px #868600;}
+    25%{ color: #f2ffe4; 
+        text-shadow: -1px 1px 0 #408000, 1px 1px 0 #408000,1px -1px 0 #408000,-1px -1px 0 #408000, 0 0 10px #408000, 0 0 30px #408000, 0 0 50px #408000;}
+    33%{ color: #e2ffe2; 
+        text-shadow: -1px 1px 0 #009500, 1px 1px 0 #009500,1px -1px 0 #009500,-1px -1px 0 #009500, 0 0 10px #009500, 0 0 30px #009500, 0 0 50px #009500;}
+    41%{ color: #e0fff0; 
+        text-shadow: -1px 1px 0 #00ab55, 1px 1px 0 #00ab55,1px -1px 0 #00ab55,-1px -1px 0 #00ab55, 0 0 10px #00ab55, 0 0 30px #00ab55, 0 0 50px #00ab55;}
+    50%{ color: #cbffff; 
+        text-shadow: -1px 1px 0 #00a2a2, 1px 1px 0 #00a2a2,1px -1px 0 #00a2a2,-1px -1px 0 #00a2a2, 0 0 10px #00a2a2, 0 0 30px #00a2a2, 0 0 50px #00a2a2;}
+    58%{ color: #d5eaff; 
+        text-shadow: -1px 1px 0 #006bd6, 1px 1px 0 #006bd6,1px -1px 0 #006bd6,-1px -1px 0 #006bd6, 0 0 10px #006bd6, 0 0 30px #006bd6, 0 0 50px #006bd6;}
+    66%{ color: #dadaff; 
+        text-shadow: -1px 1px 0 #0000bf, 1px 1px 0 #0000bf,1px -1px 0 #0000bf,-1px -1px 0 #0000bf, 0 0 10px #0000bf, 0 0 30px #0000bf, 0 0 50px #0000bf;}
+    75%{ color: #eddbff; 
+        text-shadow: -1px 1px 0 #6500cb, 1px 1px 0 #6500cb,1px -1px 0 #6500cb,-1px -1px 0 #6500cb, 0 0 10px #6500cb, 0 0 30px #6500cb, 0 0 50px #6500cb;}
+    83%{ color: #ffe4ff; 
+        text-shadow: -1px 1px 0 #c200c2, 1px 1px 0 #c200c2,1px -1px 0 #c200c2,-1px -1px 0 #c200c2, 0 0 10px #c200c2, 0 0 30px #c200c2, 0 0 50px #c200c2;}
+    91%{ color: #ffd6ea; 
+        text-shadow: -1px 1px 0 #b10058, 1px 1px 0 #b10058,1px -1px 0 #b10058,-1px -1px 0 #b10058, 0 0 10px #b10058, 0 0 30px #b10058, 0 0 50px #b10058;}
+}
+@keyframes rainbow{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
